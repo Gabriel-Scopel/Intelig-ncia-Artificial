@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Ola", "Opa", "Oi","bom dia", "boa tarde","boa noite"],
+      "responses": ["Oi", "Olá", "como posso te ajudar?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["valeu", "tchau", "Obrigado", "tks"],
+      "responses": ["Até breve", "Falou"]
+    },
+    {
+      "tag": "data_prova",
+      "patterns": ["Quando sera a prova?", "A prova será em que dia?"],
+      "responses": ["no dia 26"]
+    },
+    {
+      "tag": "estado_ser",
+      "patterns": ["tudo bem?", "Como vai?"],
+      "responses": ["tudo bem"]
+    },
+    {
+      "tag": "ajuda",
+      "patterns": ["Preciso de ajuda", "Pode me ajudar?", "Estou com um problema"],
+      "responses": ["Claro, em que posso ajudar?", "Como posso ajudar você?", "para mais informações visite nosso site"]
+    },
+    {
+      "tag": "informacoes_contato",
+      "patterns": ["Como posso entrar em contato?", "Qual é o contato?"],
+      "responses": ["Você pode entrar em contato pelo e-mail contato@exemplo.com ou pelo telefone (11) 1234-5678."]
+    },
+    {
+      "tag": "horario_atendimento",
+      "patterns": ["Qual é o horário de atendimento?", "Quando vocês estão abertos?"],
+      "responses": ["Estamos abertos de segunda a sexta-feira, das 9h às 18h."]
+    },
+    {
+      "tag": "capacidade",
+      "patterns": ["O que você é capaz de fazer?", "Como pode me ajudar?"],
+      "responses": ["Sou capaz de fornecer informações sobre como submeter um projeto pipe"]
+    },
+    {
+      "tag": "localizacao",
+      "patterns": ["Onde vocês estão localizados?", "Qual é o endereço?"],
+      "responses": ["Você pode consultar nossas localizações em nosso site."]
+    },
+    {
+      "tag": "descricao_submeter_projeto",
+      "patterns": ["Como submeter um projeto PIPE?"],
+      "responses": ["Siga os passos: 1. Preparar o projeto 2.Cadastrar a empresa 3.Elaborar o pedido de inscrição 4.Elaborar documentação necessária 5.Submissão 6.Acompanhamento. Caso queira saber algum desses passos mais detalhadamente digite o numero correspondente"]
+    },
+    {
+      "tag": "descricao_submeter_projeto_1",
+      "patterns": ["1"],
+      "responses": ["Elabore um projeto detalhado com os objetivos, metodologia, cronograma e orçamento. O projeto deve ter uma abordagem inovadora e viável."]
+    },
+    {
+      "tag": "descricao_submeter_projeto_2",
+      "patterns": ["2"],
+      "responses": ["Certifique-se de que a empresa está registrada e atende aos critérios do PIPE. Isso pode incluir estar em conformidade com a legislação brasileira e ter uma estrutura mínima de pesquisa e desenvolvimento."]
+    },
+    {
+      "tag": "descricao_submeter_projeto_3",
+      "patterns": ["3"],
+      "responses": ["O pedido deve ser feito por meio do sistema de submissão da FAPESP. Acesse o portal da FAPESP e faça o login para iniciar o processo."]
+    },
+    {
+      "tag": "descricao_submeter_projeto_4",
+      "patterns": ["4"],
+      "responses": ["Prepare toda a documentação exigida, que pode incluir o CNPJ da empresa, o currículo dos pesquisadores envolvidos, e qualquer outro documento específico solicitado pelo edital do PIPE."]
+    },
+    {
+      "tag": "descricao_submeter_projeto_5",
+      "patterns": ["5"],
+      "responses": ["Envie o projeto e os documentos pelo sistema online da FAPESP, seguindo as instruções e prazos estabelecidos no edital."]
+    },
+    {
+      "tag": "descricao_submeter_projeto_6",
+      "patterns": ["6"],
+      "responses": ["Após a submissão, acompanhe o status do seu projeto pelo sistema da FAPESP e esteja preparado para fornecer informações adicionais ou ajustar o projeto conforme solicitado."]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["obrigado", "obrigado pela ajuda"],
+      "responses": ["Fico feliz em ajudar"]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+Aqui está uma descrição das intenções (ou "intents") definidas:
+
+1. saudacao
+   - Descrição: Esta intenção é ativada quando o usuário faz uma saudação ou cumprimenta. As respostas fornecidas são cumprimentos de retorno.
+   - Exemplos de padrões: "Ola", "Opa", "Oi", "bom dia", "boa tarde", "boa noite"
+   - Respostas: "Oi", "Olá", "como posso te ajudar?"
+
+2. despedida
+   - Descrição: Utilizada quando o usuário se despede ou agradece. As respostas são mensagens de despedida.
+   - Exemplos de padrões: "valeu", "tchau", "Obrigado", "tks"
+   - Respostas: "Até breve", "Falou"
+
+3. data_prova
+   - Descrição: Responde a perguntas sobre a data de uma prova específica.
+   - Exemplos de padrões: "Quando será a prova?", "A prova será em que dia?"
+   - Respostas: "no dia 26"
+
+4. estado_ser
+   - Descrição: Lida com perguntas sobre o estado ou bem-estar. As respostas são confirmações de que está tudo bem.
+   - Exemplos de padrões: "tudo bem?", "Como vai?"
+   - Respostas: "tudo bem"
+
+5. ajuda
+   - Descrição: Atendida quando o usuário solicita ajuda ou indica que está com um problema. As respostas fornecem assistência ou direcionam para mais informações.
+   - Exemplos de padrões: "Preciso de ajuda", "Pode me ajudar?", "Estou com um problema"
+   - Respostas: "Claro, em que posso ajudar?", "Como posso ajudar você?", "para mais informações visite nosso site"
+
+6. informacoes_contato
+   - Descrição: Fornece informações sobre como entrar em contato com a empresa ou organização.
+   - Exemplos de padrões: "Como posso entrar em contato?", "Qual é o contato?"
+   - Respostas: "Você pode entrar em contato pelo e-mail contato@exemplo.com ou pelo telefone (11) 1234-5678."
+
+7. horario_atendimento
+   - Descrição: Responde a perguntas sobre o horário de atendimento da empresa ou organização.
+   - Exemplos de padrões: "Qual é o horário de atendimento?", "Quando vocês estão abertos?"
+   - Respostas: "Estamos abertos de segunda a sexta-feira, das 9h às 18h."
+
+8. capacidade
+   - Descrição: Explica o que o sistema ou entidade é capaz de fazer, especialmente em relação a fornecer informações.
+   - Exemplos de padrões: "O que você é capaz de fazer?", "Como pode me ajudar?"
+   - Respostas: "Sou capaz de fornecer informações sobre como submeter um projeto PIPE."
+
+9. localizacao
+   - Descrição: Fornece informações sobre a localização física da empresa ou organização.
+   - Exemplos de padrões: "Onde vocês estão localizados?", "Qual é o endereço?"
+   - Respostas: "Você pode consultar nossas localizações em nosso site."
+
+10. descricao_submeter_projeto
+    - Descrição: Dá uma visão geral do processo de submissão de um projeto PIPE. Oferece uma divisão dos passos envolvidos.
+    - Exemplos de padrões: "Como submeter um projeto PIPE?"
+    - Respostas: "Siga os passos: 1. Preparar o projeto 2. Cadastrar a empresa 3. Elaborar o pedido de inscrição 4. Elaborar documentação necessária 5. Submissão 6. Acompanhamento. Caso queira saber algum desses passos mais detalhadamente digite o número correspondente."
+
+11. descricao_submeter_projeto_1
+    - Descrição: Detalha o primeiro passo do processo de submissão de um projeto PIPE.
+    - Exemplos de padrões: "1"
+    - Respostas: "Elabore um projeto detalhado com os objetivos, metodologia, cronograma e orçamento. O projeto deve ter uma abordagem inovadora e viável."
+
+12. descricao_submeter_projeto_2
+    - Descrição: Explica o segundo passo do processo, que é cadastrar a empresa.
+    - Exemplos de padrões: "2"
+    - Respostas: "Certifique-se de que a empresa está registrada e atende aos critérios do PIPE. Isso pode incluir estar em conformidade com a legislação brasileira e ter uma estrutura mínima de pesquisa e desenvolvimento."
+
+13. descricao_submeter_projeto_3
+    - Descrição: Descreve o terceiro passo, que é elaborar o pedido de inscrição.
+    - Exemplos de padrões: "3"
+    - Respostas: "O pedido deve ser feito por meio do sistema de submissão da FAPESP. Acesse o portal da FAPESP e faça o login para iniciar o processo."
+
+14. descricao_submeter_projeto_4
+    - Descrição: Detalha o quarto passo, que é preparar a documentação necessária.
+    - Exemplos de padrões: "4"
+    - Respostas: "Prepare toda a documentação exigida, que pode incluir o CNPJ da empresa, o currículo dos pesquisadores envolvidos, e qualquer outro documento específico solicitado pelo edital do PIPE."
+
+15. descricao_submeter_projeto_5
+    - Descrição: Explica o quinto passo, que é a submissão do projeto e documentos.
+    - Exemplos de padrões: "5"
+    - Respostas: "Envie o projeto e os documentos pelo sistema online da FAPESP, seguindo as instruções e prazos estabelecidos no edital."
+
+16. descricao_submeter_projeto_6
+    - Descrição: Descreve o sexto passo, que é o acompanhamento do status do projeto após a submissão.
+    - Exemplos de padrões: "6"
+    - Respostas: "Após a submissão, acompanhe o status do seu projeto pelo sistema da FAPESP e esteja preparado para fornecer informações adicionais ou ajustar o projeto conforme solicitado."
+
+17. agradecimento
+    - Descrição: Responde a agradecimentos ou expressões de gratidão do usuário.
+    - Exemplos de padrões: "obrigado", "obrigado pela ajuda"
+    - Respostas: "Fico feliz em ajudar"
