@@ -1,0 +1,21 @@
+@RELATION PartidaTenis
+@ATTRIBUTE Tempo numeric
+@ATTRIBUTE Temperatura numeric
+@ATTRIBUTE Umidade numeric
+@ATTRIBUTE Vento numeric
+@ATTRIBUTE Partida numeric
+@DATA
+1,1,1,1,0
+1,1,1,2,0
+2,1,1,1,1
+3,2,1,1,1
+3,3,2,1,1
+3,3,2,2,0
+2,3,2,2,1
+1,2,1,1,0
+1,3,2,1,1
+3,2,2,1,1
+1,2,2,2,1
+2,2,1,2,1
+2,1,2,1,1
+3,2,1,2,0
